@@ -125,6 +125,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active,
   color: white;
 }
 
+#panel .panel-corner {
+  -panel-corner-radius: 0px;
+}
+
 #panel,
 .search-entry {
   background-color: #2d2d2d;
@@ -174,11 +178,19 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active,
   background: none;
 }
 
+.workspace-switcher-container {
+  border-radius: 4px;
+}
+
 .ws-switcher-box {
   height: 50px;
   border: none;
   background-color: #444444;
-  border-radius: 8px;
+}
+
+.ws-switcher-box, .ws-switcher-active-up,
+.ws-switcher-active-down {
+  border-radius: 2px;
 }
 
 .calendar-day-with-events {
