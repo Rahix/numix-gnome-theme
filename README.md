@@ -6,7 +6,7 @@ I built this based on what looks good on my system (currently Gnome 3.20). There
 
 If you fix or improve something for your system, please share it with a pull request.
 
-Also, this theme uses the font "Source Sans Pro". If you don't have that font, you can change it at the top of the CSS file.
+Also, this theme uses the font "Roboto". If you don't have that font, you can change it at the top of the CSS file.
 
 ## To install
 - Put the Numix directory in `~/.themes`.
